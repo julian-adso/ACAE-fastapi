@@ -1,0 +1,93 @@
+###############################
+# 📦 Migraciones y Base de Datos
+###############################
+alembic==1.16.5        # Migraciones de base de datos para SQLAlchemy
+SQLAlchemy==2.0.44     # ORM principal para interactuar con la base de datos
+greenlet==3.2.4        # Soporte async para SQLAlchemy
+Flask-Migrate==4.1.0   # Migraciones específicas para apps Flask
+Flask-SQLAlchemy==3.1.1 # ORM integrado con Flask
+
+######################################
+# 🌐 Frameworks Web: Flask y FastAPI
+######################################
+Flask==3.1.2           # Framework web micro basado en Python
+Werkzeug==3.1.3        # Servidor WSGI y utilidades internas de Flask
+itsdangerous==2.2.0    # Tokens seguros usados por Flask
+Jinja2==3.1.6          # Motor de plantillas para Flask
+MarkupSafe==3.0.3      # Seguridad de etiquetas en plantillas
+
+fastapi==0.120.3       # Framework moderno de APIs rápidas basado en ASGI
+starlette==0.49.1      # Base ASGI sobre la que corre FastAPI
+uvicorn==0.38.0        # Servidor ASGI para FastAPI
+watchfiles==1.1.1      # Reload automático para FastAPI en desarrollo
+websockets==15.0.1     # Soporte WebSocket (FastAPI / Starlette)
+httptools==0.7.1       # Parser HTTP de alto rendimiento
+h11==0.16.0            # Protocolo HTTP para ASGI
+
+###############################
+# 🔒 Seguridad y Autenticación
+###############################
+bcrypt==5.0.0           # Hashing seguro para contraseñas
+passlib==1.7.4          # Manejo avanzado de contraseñas
+python-jose==3.5.0      # Generación y validación de JWT
+rsa==4.9.1              # Criptografía basada en claves RSA
+ecdsa==0.19.1           # Firmas ECDSA (cripto)
+jwt==1.4.0              # Librería JWT alterna
+jose==1.0.0             # Dependencia para autenticación
+pyasn1==0.6.1           # Soporte ASN.1 usado en criptografía
+cryptography==46.0.3    # Algoritmos de cifrado y claves
+
+######################################
+# 📤 Manejo de Formularios y Archivos
+######################################
+python-multipart==0.0.20 # Subida de archivos multipart/form-data
+
+################################################
+# 📧 Validación de Email y Conversión de Datos
+################################################
+email-validator==2.3.0 # Validación de correos electrónicos
+idna==3.11             # Codificación internacional de dominios
+
+################################
+# 🧰 Utilidades generales
+################################
+click==8.3.0           # Herramienta para crear comandos CLI
+colorama==0.4.6        # Colores en consola (Windows)
+dotenv==0.9.9          # Manejo de variables de entorno (.env)
+python-dotenv==1.2.1   # Carga variables desde .env
+sniffio==1.3.1         # Detección de contexto async
+
+###############################
+# 📚 Tipado y Pydantic
+###############################
+pydantic==2.12.3        # Validación de datos (muy usado en FastAPI)
+pydantic_core==2.41.4   # Núcleo de validación de Pydantic
+annotated-types==0.7.0  # Tipos anotados para Pydantic
+typing_extensions==4.15.0 # Tipos adicionales de Python
+typing-inspection==0.4.2 # Utilidades de inspección de tipos
+annotated-doc==0.0.3    # Manejo de documentación con anotaciones
+
+###############################
+# 🔌 Conectores y Redes
+###############################
+PyMySQL==1.1.2          # Conector para MySQL
+dnspython==2.8.0        # DNS para validación de dominios
+
+#######################################
+# 📝 Manejo de archivos y documentos
+#######################################
+openpyxl==3.1.5         # Manejo de archivos Excel .xlsx
+et_xmlfile==2.0.0       # Dependencia interna de openpyxl
+pillow==11.3.0          # Procesamiento de imágenes
+qrcode==8.2             # Generación de códigos QR
+
+###############################
+# 🧱 Utilidades de desarrollo
+###############################
+blinker==1.9.0          # Señales internas (Flask lo usa)
+six==1.17.0             # Compatibilidad entre Python 2/3
+pycparser==2.23         # Parser C usado por cffi
+cffi==2.0.0             # Interacción con librerías C
+PyYAML==6.0.3           # Lectura de archivos YAML
+pytz==2025.2            # Manejo de zonas horarias
+Mako==1.3.10            # Motor de plantillas (usado por Alembic)
